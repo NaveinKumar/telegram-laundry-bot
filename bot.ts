@@ -1,6 +1,6 @@
 import TelegramBot, { Message } from "node-telegram-bot-api";
 
-const TOKEN = process.env.BOT_TOKEN || "7912267645:AAFgxWCuHILpN3gypG9yCy4nF-Uv1dP2Zmg";
+const TOKEN = process.env.BOT_TOKEN!;
 const VENDOR_GROUP_ID = -1003883737847;
 
 const bot = new TelegramBot(TOKEN, { polling: true });
