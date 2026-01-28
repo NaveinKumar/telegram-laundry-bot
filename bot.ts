@@ -62,6 +62,8 @@ bot.on("message", (msg: Message) => {
 👕 Clothes: ${state.clothes}
 📍 Area: ${state.area}
 ⏰ Time: ${state.time}
+🚚 Pickup & Drop: Expected (confirm availability)
+
 `;
 
    bot.sendMessage(VENDOR_GROUP_ID, vendorMessage, {
