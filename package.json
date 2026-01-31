@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/bot.js"
+    "start:laundry": "node dist/bot.js",
+    "start:maid": "node dist/maid.bot.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "node-telegram-bot-api": "^0.67.0"
   },
   "devDependencies": {
